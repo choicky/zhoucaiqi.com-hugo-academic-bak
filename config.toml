@@ -1,5 +1,5 @@
-baseurl = "https://iplaws.cn/"  # End your URL with a `/` trailing slash.
-title = "IP Laws，知识产权律师"
+baseurl = "https://zhoucaiqi.com/"  # End your URL with a `/` trailing slash.
+title = "周才淇，会编程的律师"
 copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
 enableEmoji = true
@@ -19,7 +19,7 @@ defaultContentLanguageInSubdir = true
   hrefTargetBlank = true
 
 [params]
-  name = "周才淇律师"
+  name = "周才淇"
   role = "著作权、商标、专利、商业秘密"
   organization = "广东深法律师事务所"
   organization_url = "http://www.tahota-lawyer.com"
@@ -178,36 +178,66 @@ defaultContentLanguageInSubdir = true
   name = "所有文章"
   url = "tags/post"
   weight = 41
-
+  
 [[menu.main]]
-  name = "著作权"
-  url = "tags/著作权"
+  name = "IT/互联网"
   weight = 51
+  identifier = "IT-internet"
   
 [[menu.main]]
-  name = "商标"
-  url = "tags/商标"
+  name = "IT"
   weight = 53
+  parent = "IT-internet"
+  url = "tags/IT"
   
 [[menu.main]]
-  name = "专利"
-  url = "tags/专利"
+  name = "互联网"
   weight = 55
+  parent = "IT-internet"
+  url = "tags/互联网"
   
 [[menu.main]]
-  name = "商业秘密"
-  url = "tags/商业秘密"
-  weight = 57
+  name = "App/软件"
+  weight = 61
+  identifier = "App-software"
+  
+[[menu.main]]
+  name = "App"
+  weight = 63
+  parent = "App-software"
+  url = "tags/IT"
+  
+[[menu.main]]
+  name = "Linux"
+  weight = 65
+  parent = "App-software"
+  url = "tags/Linux"
+  
+[[menu.main]]
+  name = "软件"
+  weight = 67
+  parent = "App-software"
+  url = "tags/软件"
+  
+[[menu.main]]
+  name = "法律"
+  url = "tags/法律"
+  weight = 71
+  
+[[menu.main]]
+  name = "数码"
+  url = "tags/数码"
+  weight = 81
     
 [[menu.main]]
-  name = "案例"
-  url = "tags/案例"
-  weight = 61
+  name = "日常"
+  url = "tags/日常"
+  weight = 91
 
 [[menu.main]]
   name = "联系"
   url = "#contact"
-  weight = 71
+  weight = 101
 
 # Taxonomies.
 [taxonomies]
