@@ -180,44 +180,14 @@ defaultContentLanguageInSubdir = true
   weight = 41
   
 [[menu.main]]
-  name = "IT/互联网"
-  weight = 51
-  identifier = "IT-internet"
-  
-[[menu.main]]
   name = "IT"
-  weight = 53
-  parent = "IT-internet"
-  url = "tags/IT"
-  
+  weight = 51
+  url = "tags/it"
+
 [[menu.main]]
-  name = "互联网"
-  weight = 55
-  parent = "IT-internet"
-  url = "tags/互联网"
-  
-[[menu.main]]
-  name = "App/软件"
+  name = "Software"
   weight = 61
-  identifier = "App-software"
-  
-[[menu.main]]
-  name = "App"
-  weight = 63
-  parent = "App-software"
-  url = "tags/IT"
-  
-[[menu.main]]
-  name = "Linux"
-  weight = 65
-  parent = "App-software"
-  url = "tags/Linux"
-  
-[[menu.main]]
-  name = "软件"
-  weight = 67
-  parent = "App-software"
-  url = "tags/软件"
+  url = "tags/software"
   
 [[menu.main]]
   name = "法律"

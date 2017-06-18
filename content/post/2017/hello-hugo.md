@@ -2,7 +2,12 @@
 date = "2017-06-17T12:59:29+08:00"
 highlight = true
 math = false
-tags = ["Hugo", "Academic"]
+tags = [
+    "post", # 保留，文章归档使用
+    "Software", # 如涉及 ，建议附加更具体的 tags
+    "Hugo",
+    "Academic"
+]
 title = "Hello Hugo"
 
 [header]
