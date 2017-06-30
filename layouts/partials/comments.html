@@ -1,6 +1,6 @@
 {{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
 <section id="comments">
-  <div id="disqus_thread">
+
     <div id="comment"></div>
     <script>
         var disq = new iDisqus('comment', {
@@ -18,6 +18,6 @@
         disq.count();
     </script>
     <ul id="popular-posts"></ul>
-  </div>
+
 </section>
 {{ end }}
