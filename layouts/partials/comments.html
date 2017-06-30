@@ -2,24 +2,22 @@
 <section id="comments">
   <div id="disqus_thread">
     <div id="comment"></div>
-
-    <ul id="popular-posts"></ul>
-
     <script>
         var disq = new iDisqus('comment', {
             forum: 'zhoucaiqi-com',
             api: 'https://disqus-zhoucaiqi-com.fei-xing.com/api',
             site: 'https://zhoucaiqi.com',
-            url: '',
+            // url: '',
             mode: 3,
             timeout: 3000,
             popular: document.getElementById('popular-posts'),
-            slug: location.pathname.slice(1).split('.')[0],
+            // slug: location.pathname.slice(1).split('.')[0],
             init: true,
         });
         disq.popular();
         disq.count();
     </script>
+    <ul id="popular-posts"></ul>
   </div>
 </section>
 {{ end }}
