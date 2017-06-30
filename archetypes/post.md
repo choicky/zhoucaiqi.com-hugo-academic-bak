@@ -1,6 +1,7 @@
 +++
 date = {{ .Date }}
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
+slug = "{{ .TranslationBaseName | title }}"
 tags = [
     "post", # 保留，文章归档使用
     "IT", # 如涉及，建议附加更具体的 tags
