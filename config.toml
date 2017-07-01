@@ -4,6 +4,7 @@ copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
+disablePathToLower = true
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "zhoucaiqi-com"
@@ -18,10 +19,13 @@ defaultContentLanguageInSubdir = true
 [blackfriday]
   hrefTargetBlank = true
 
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
 [params]
   name = "周才淇"
-  role = "著作权、商标、专利、商业秘密"
-  organization = "广东深法律师事务所"
+  role = "知识产权律师"
+  organization = "泰和泰（深圳）律师事务所"
   organization_url = "http://www.tahota-lawyer.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -82,8 +86,8 @@ defaultContentLanguageInSubdir = true
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
+  highlight_languages = ["php","javascript","bash","python"]
+  highlight_style = "github"
   # highlight_version = "9.9.0"
   highlight_version = "9.12.0"
 
