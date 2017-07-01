@@ -25,7 +25,7 @@ Hugo 的 Academic 具有以下特点：
 - 可以管理主页、博文、论文、演讲、项目等；
 - 可以配置简介、论文、项目、博文、演讲、联系方式等；
 - 可以自定义不同的内容种类（section）；
-- [Markdown]({{< ref "post/writing-markdown-latex.md" >}}) 语法高亮，支持 [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Mathematics) ；
+- [Markdown](post/writing-markdown-latex.md) 语法高亮，支持 [LaTeX](https://en.wikibooks.org/wiki/LaTeX/Mathematics) ；
 - 支持社交链接、[Google 统计](https://analytics.google.com)、[Disqus 评论](https://disqus.com) 等，可惜国内用不了；
 - 界面自适应不同的屏幕尺寸，包括手机屏幕尺寸；
 - 单页式设计；
@@ -79,15 +79,15 @@ Hugo 的 Academic 具有以下特点：
 
 ### 定制首页
 
-可参考 [widgets]({{< ref "post/widgets.md" >}}) 来定制首页。
+可参考 [widgets](post/widgets.md) 来定制首页。
 
 ### 增加内容
 
-可参加靠 [managing content]({{< ref "post/managing-content.md" >}}) 来创建论文、博文、演讲、项目等。
+可参加靠 [managing content](post/managing-content.md) 来创建论文、博文、演讲、项目等。
 
 ### 删除未用的 widgets 和 页面
 
-[How to remove unused widgets and content pages]({{< ref "post/managing-content.md#removing-content" >}}).
+[How to remove unused widgets and content pages](post/managing-content.md#removing-content").
 
 ## 高级定制
 
