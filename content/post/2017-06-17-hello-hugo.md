@@ -1,8 +1,8 @@
 +++
-date = 2017-06-18T21:35:40+08:00 # 格式为：2017-07-01T20:32:20+08:00
+date = 2017-06-17T21:35:40+08:00 # 格式为：2017-07-01T20:32:20+08:00
 title = "使用 hugo 搭建个人网站" # 文件名为 yyyy-mm-dd-title，所以要去掉 yyyy mm dd
 slug = "Hello-Hugo" #文件名为 yyyy-mm-dd-title，所以要去掉 yyyy-mm-dd-
-url = "/2017-06-18-Hello-Hugo/" # 该设置会覆盖 config.toml 里面的 permalink 
+url = "/2017-06-17-Hello-Hugo/" # 该设置会覆盖 config.toml 里面的 permalink 
 categories = [
     "软件与网络", # IT，建议附加更具体的 tags
 ]
