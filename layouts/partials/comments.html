@@ -1,4 +1,5 @@
 {{ if and .Site.DisqusShortname (not (or .Site.Params.disable_comments .Params.disable_comments)) }}
+<ul id="popular-posts"></ul>
 <div id="comment"></div>
 <script>
     var disq = new iDisqus('comment', {
@@ -6,7 +7,7 @@
         api: 'https://disqus-zhoucaiqi-com.fei-xing.com/api',
         site: 'https://zhoucaiqi.com',
         // url: '',
-        mode: 3,
+        mode: 2,
         timeout: 3000,
         popular: document.getElementById('popular-posts'),
         // slug: location.pathname.slice(1).split('.')[0],
@@ -15,5 +16,4 @@
     disq.popular();
     disq.count();
 </script>
-<ul id="popular-posts"></ul>
 {{ end }}
