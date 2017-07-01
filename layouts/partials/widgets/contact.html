@@ -13,10 +13,19 @@
 
     <ul class="fa-ul" itemscope>
 
-      {{ with $.Site.Params.email }}
+      {{ with $.Site.Params.email_work }}
       <li>
         <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email">
+        <span id="person-email" itemprop="email">工作邮箱：
+        {{- if $autolink }}<a href="mailto:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
+        </span>
+      </li>
+      {{ end }}
+      
+      {{ with $.Site.Params.email_personal }}
+      <li>
+        <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email">个人邮箱：
         {{- if $autolink }}<a href="mailto:{{ . }}">{{ . }}</a>{{ else }}{{ . }}{{ end -}}
         </span>
       </li>

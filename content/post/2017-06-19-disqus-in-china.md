@@ -1,11 +1,13 @@
 +++
-date = 2017-06-30T19:56:46+08:00
-title = "国内网站使用 Disqus"
+date = 2017-06-19T21:35:40+08:00 # 格式为：2017-07-01T20:32:20+08:00
+title = "使用 hugo 搭建个人网站" # 文件名为 yyyy-mm-dd-title，所以要去掉 yyyy mm dd
+slug = "Hello-Hugo" #文件名为 yyyy-mm-dd-title，所以要去掉 yyyy-mm-dd-
+url = "/2017-06-19-Disqus-In-China/" # 该设置会覆盖 config.toml 里面的 permalink 
+categories = [
+    "软件与网络", # IT，建议附加更具体的 tags
+]
 tags = [
-    "post", # 保留，文章归档使用
-    "IT", # 如涉及，建议附加更具体的 tags
-    "Software", # 如涉及，建议附加更具体的 tags
-    "disqus", # 如涉及，建议附加更具体的 tags
+    "hugo", # tag 举例
 ]
 math = false
 highlight = true
@@ -19,7 +21,7 @@ caption = ""
 
 现在很多独立博客程序都不带论模块了。所以独立博客往往被迫使用第三方提供的评论服务，例如国外的 [Disqus](https://disqus.com/)、国内的多说、友言、畅言等。遗憾的是，国内的服务要么停止了，要么停止不活的。所以，只能考虑 Disqus。
 
-但是，中国的网络与国外的网络之间竖着一堵墙，而 Disqus 很不幸地被挡在墙外。
+但是，中国的网络与国外的网络之间竖着一堵墙，而 Disqus 很不幸地被挡在墙外。<!--more-->
 
 偶然间，发现一篇[《科学使用 Disqus》](http://blog.fooleap.org/use-disqus-correctly.html)，其中介绍了一个开源的 [disqus-php-api](https://github.com/fooleap/disqus-php-api) 项目，该项目的原理是借助一个中间服务器中转 Disqus 的数据，从而使国内的网站可以基本正常地使用 Disqus 服务。
 

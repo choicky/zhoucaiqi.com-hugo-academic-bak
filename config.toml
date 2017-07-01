@@ -4,7 +4,7 @@ copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
-disablePathToLower = true
+# disablePathToLower = true
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "zhoucaiqi-com"
@@ -29,7 +29,8 @@ defaultContentLanguageInSubdir = true
   organization_url = "http://www.tahota-lawyer.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "info@iplaws.cn"
+  email_work = "caiqi.zhou@tahota.com"
+  email_personal = "85144733@QQ.com"
   address = "深圳市福田区福虹路9号世贸广场C座25层"
   office_hours = ""
   phone = "177 2261 8837"
@@ -136,7 +137,12 @@ defaultContentLanguageInSubdir = true
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:info@iplaws.cn"
+    link = "mailto:caiqi.zhou@tahota.com"
+    
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:85144733@QQ.com"
 
   [[params.social]]
     icon = "qq"
@@ -180,36 +186,26 @@ defaultContentLanguageInSubdir = true
 
 [[menu.main]]
   name = "所有文章"
-  url = "tags/post"
+  url = "/post/"
   weight = 41
   
 [[menu.main]]
-  name = "IT"
+  name = "法律与案例"
   weight = 51
-  url = "tags/it"
+  url = "categories/法律与案例/"
 
 [[menu.main]]
-  name = "Software"
+  name = "软件与网络"
   weight = 61
-  url = "tags/software"
+  url = "categories/软件与网络/"
   
 [[menu.main]]
-  name = "法律"
-  url = "tags/法律"
+  name = "数码与日常"
+  url = "categories/数码与日常/"
   weight = 71
-  
-[[menu.main]]
-  name = "数码"
-  url = "tags/数码"
-  weight = 81
-    
-[[menu.main]]
-  name = "日常"
-  url = "tags/日常"
-  weight = 91
 
 [[menu.main]]
-  name = "联系"
+  name = "联系我"
   url = "#contact"
   weight = 101
 
