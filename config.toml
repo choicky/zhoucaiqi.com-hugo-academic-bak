@@ -1,5 +1,5 @@
 baseurl = "https://zhoucaiqi.com/"  # End your URL with a `/` trailing slash.
-title = "周才淇，会编程的律师"
+title = "周才淇，深圳知识产权律师"
 copyright = "&copy; 2017 IPlaws.cn"
 theme = "academic"
 enableEmoji = true
@@ -24,7 +24,7 @@ defaultContentLanguageInSubdir = true
 
 [params]
   name = "周才淇"
-  role = "知识产权律师"
+  role = "深圳知识产权律师"
   organization = "泰和泰（深圳）律师事务所"
   organization_url = "http://www.tahota-lawyer.com"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
