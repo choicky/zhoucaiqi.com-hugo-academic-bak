@@ -44,7 +44,7 @@ Hugo 的 Academic 具有以下特点：
 
     替换方式是 [下载 Academic](https://github.com/gcushen/hugo-academic/archive/master.zip) 并解压至站点文件夹的 `themes/academic`。
 
-3. 可以把主题自带的`exampleSite`文件夹内的示范文件复制到站点文件夹。
+3. 可以把主题自带的`exampleSite`文件夹内的示范文件复制到站点文件夹。<!--more-->
 
         cp -av themes/academic/exampleSite/* .
 
