@@ -4,13 +4,11 @@ title = "在 academic 框架下管理 hugo 的内容" # 文件名为 yyyy-mm-dd-
 slug = "Hugo-Academic-Content" #文件名为 yyyy-mm-dd-title，所以要去掉 yyyy-mm-dd-
 # url = "/2017-06-01-Hugo-Academic-Content/" # 该设置会覆盖 config.toml 里面的 permalink 
 categories = [
-    "法律与案例", # Laws，建议附加更具体的 tags
     "软件与网络", # IT，建议附加更具体的 tags
-    "数码与日常", # Life，建议附加更具体的 tags；最后一项也可以有逗号了
 ]
 tags = [
-    "Markdown", # tag 举例
-    "VPS", # tag 举例；最后一项也可以有逗号了
+    "hugo", # tag 举例
+    "academic", # tag 举例；最后一项也可以有逗号了
 ]
 math = false
 highlight = true
